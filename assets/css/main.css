@@ -1,0 +1,110 @@
+body, html {
+  height: 100%;
+  background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../images/1.png);
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+.tidal-logo {
+  width: 35%;
+  display: block;
+  margin: auto;
+
+}
+
+.tidal-title {
+  text-align: center;
+font-size: 4.5em;
+color: white;
+font-weight: bold;
+}
+
+.tidal-subtitle {
+  margin-left: 15em;
+    margin-right: 15em;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: white;
+    margin-top: 1.8em;
+    text-align: center;
+}
+
+
+.down-arrow {
+  position: absolute;
+  height: 10%;
+    left: 48.8%;
+    bottom: 0;
+}
+
+
+
+.iframe-container {
+  text-align: center;
+}
+
+.email-button {
+  color: white;
+/* border: white; */
+background-color: transparent;
+border-radius: 0.5em;
+}
+
+.email-container {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.left-side {
+  height: 100%;
+  background: linear-gradient(
+      rgba(128,184,115,0.40),
+      rgba(128,184,115,0.40)
+    ), url('../images/bg.png');
+    background-size: cover;
+    /* Rectangle 2: */
+
+}
+
+.social-icons {
+  text-align: center;
+}
+
+@font-face {
+  font-family: tmrrw;
+  src: url(../fonts/TradeGothicLTBold.ttf);
+}
+
+.font {
+  font-family: tmrrw;
+}
+
+
+.logo {
+  margin: auto;
+  display: block;
+  margin-top: 5em;
+}
+
+.coming-soon {
+  text-align: center;
+    font-size: 3.2em;
+    font-weight: bold;
+    color: black;
+    font-family: tmrrw;
+    margin-top: 1em;
+}
+
+.paragraph {
+  text-align: center;
+    color: black;
+    font-size: 1.5em;
+    padding: 2.6em;
+}
+
+.fb-button {
+  background-color: #6BC072 !important;
+  color: white;
+  border: 0 !important;
+  font-family: tmrrw;
+}
